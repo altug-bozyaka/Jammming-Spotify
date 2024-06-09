@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(19, 18, 83, 0.5);
+    width: 45%;
+    min-height: 300px;
+    position: relative;
+    padding: 0px 10px 20px 10px;
+}
+
+.playlist-title {
+    font-size: 1.4em;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.tracks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    color: rgb(136, 172, 217);
+    border: 1px solid rgb(136, 172, 217);
+    margin-top: 5px;
+}
+
+.save-playlist-button {
+    border: none;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(108, 65, 236);
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    align-self: flex-end;
+    margin: auto auto 0px auto;
+}

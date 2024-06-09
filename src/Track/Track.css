@@ -1,0 +1,54 @@
+.search-result-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.track-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.track-info-box {
+    margin-right: 30px;
+}
+
+.song-name {
+    font-size: 1em;
+    color: white;
+    font-weight: normal;
+}
+
+.song-description {
+    color: rgb(136, 172, 217);
+    font-size: 0.85em;
+    margin-top: 2px;
+}
+
+.track-button {
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    background-color: transparent;
+}
+
+.track-button:hover {
+    color: yellow;
+    font-weight: 600;
+    scale: 1.05;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    color: rgb(136, 172, 217);
+    border: 1px solid rgb(136, 172, 217);
+    margin-top: 5px;
+}
